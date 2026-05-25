@@ -16,7 +16,7 @@
         }
 
         body {
-            background-color: #0f172a;
+            background-color: #0b0f19;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -25,16 +25,17 @@
         }
 
         .phone-container {
-            background: #ffffff;
+            background: #111827;
             width: 100%;
             max-width: 410px;
             height: 840px;
             border-radius: 40px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.6);
             overflow-y: auto;
             position: relative;
             display: flex;
             flex-direction: column;
+            border: 1px solid #1f2937;
         }
 
         .phone-container::-webkit-scrollbar {
@@ -42,25 +43,26 @@
         }
 
         .top-header {
-            background: linear-gradient(135deg, #4f46e5, #3b82f6);
+            background: linear-gradient(135deg, #1e1b4b, #111827);
             height: 220px;
             padding: 25px;
             position: relative;
             border-bottom-left-radius: 50% 25%;
             border-bottom-right-radius: 50% 25%;
             transition: height 0.3s ease;
+            border-bottom: 2px solid #eab308;
         }
 
         .header-nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            color: white;
+            color: #eab308;
             font-size: 18px;
         }
 
         .back-btn {
-            color: white;
+            color: #eab308;
             text-decoration: none;
             font-size: 15px;
             font-weight: 600;
@@ -70,9 +72,11 @@
 
         .store-tag, .page-name {
             font-size: 14px;
-            background: rgba(255, 255, 255, 0.2);
+            background: rgba(234, 179, 8, 0.15);
             padding: 4px 12px;
             border-radius: 20px;
+            border: 1px solid rgba(234, 179, 8, 0.3);
+            color: #fef08a;
         }
 
         .page-name {
@@ -87,10 +91,11 @@
             width: 110px;
             height: 110px;
             border-radius: 50%;
-            background: white;
-            padding: 5px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            background: #1f2937;
+            padding: 4px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
             transition: all 0.3s ease;
+            border: 2px solid #eab308;
         }
 
         .profile-img {
@@ -104,8 +109,8 @@
             position: absolute;
             bottom: 5px;
             right: 5px;
-            background: #22c55e;
-            color: white;
+            background: #eab308;
+            color: #111827;
             width: 24px;
             height: 24px;
             border-radius: 50%;
@@ -113,7 +118,7 @@
             justify-content: center;
             align-items: center;
             font-size: 12px;
-            border: 2px solid white;
+            border: 2px solid #111827;
         }
 
         .content-body {
@@ -127,20 +132,20 @@
         .profile-title {
             text-align: center;
             font-size: 22px;
-            color: #1e293b;
+            color: #ffffff;
             font-weight: 700;
         }
 
         .profile-subtitle {
             text-align: center;
             font-size: 13px;
-            color: #64748b;
+            color: #9ca3af;
             margin-bottom: 20px;
         }
 
         .bio-card {
-            background: #f8fafc;
-            border: 1px solid #e2e8f0;
+            background: #1f2937;
+            border: 1px solid #374151;
             border-radius: 20px;
             padding: 15px;
             text-align: center;
@@ -149,13 +154,13 @@
 
         .bio-card h3 {
             font-size: 14px;
-            color: #4f46e5;
+            color: #eab308;
             margin-bottom: 8px;
         }
 
         .bio-card p {
             font-size: 13px;
-            color: #475569;
+            color: #d1d5db;
             line-height: 1.6;
         }
 
@@ -166,13 +171,13 @@
             margin-top: 10px;
             font-size: 11px;
             font-weight: bold;
-            color: #059669;
+            color: #eab308;
         }
 
         .section-title {
-            font-size: 14px;
+            font-size: 13px;
             font-weight: bold;
-            color: #64748b;
+            color: #9ca3af;
             margin: 15px 5px 8px 0;
             display: flex;
             align-items: center;
@@ -189,21 +194,22 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: #f1f5f9;
+            background: #1f2937;
             padding: 14px 16px;
             border-radius: 16px;
             text-decoration: none;
-            color: #334155;
+            color: #e5e7eb;
             transition: all 0.3s ease;
             cursor: pointer;
-            border: none;
+            border: 1px solid #374151;
             width: 100%;
             text-align: right;
         }
 
         .menu-item:hover {
             transform: translateY(-2px);
-            background: #e2e8f0;
+            background: #273549;
+            border-color: #eab308;
         }
 
         .menu-right {
@@ -226,14 +232,15 @@
 
         .arrow {
             font-size: 12px;
-            color: #94a3b8;
+            color: #6b7280;
         }
 
         .primary-btn {
-            background: #e0e7ff;
-            color: #4f46e5;
+            background: rgba(234, 179, 8, 0.1);
+            color: #eab308;
+            border: 1px solid #eab308;
         }
-        .primary-btn .icon-box { background: #4f46e5; color: white; }
+        .primary-btn .icon-box { background: #eab308; color: #111827; }
 
         .whatsapp-btn .icon-box { background: #25d366; color: white; }
         .facebook-btn .icon-box { background: #1877f2; color: white; }
@@ -246,35 +253,36 @@
         }
 
         .fire-header {
-            background: linear-gradient(45deg, #f59e0b, #ef4444);
-            color: white;
+            background: linear-gradient(45deg, #1e1b4b, #eab308);
+            color: #ffffff;
             padding: 12px;
             border-radius: 16px;
             text-align: center;
             font-weight: bold;
             font-size: 15px;
             margin-bottom: 5px;
-            box-shadow: 0 4px 12px rgba(239, 68, 68, 0.2);
+            border: 1px solid #eab308;
+            box-shadow: 0 4px 12px rgba(234, 179, 8, 0.15);
         }
 
         .offer-card {
             display: flex;
             align-items: flex-start;
             gap: 15px;
-            background: #f8fafc;
-            border: 1px solid #f1f5f9;
+            background: #1f2937;
+            border: 1px solid #374151;
             padding: 15px;
             border-radius: 18px;
         }
 
         .offer-card.highlight {
-            border: 1px solid #fca5a5;
-            background: #fff5f5;
+            border: 1px solid #eab308;
+            background: linear-gradient(135deg, #1f2937, #1e1b4b);
         }
 
         .offer-icon {
-            background: #3b82f6;
-            color: white;
+            background: #eab308;
+            color: #111827;
             width: 40px;
             height: 40px;
             border-radius: 12px;
@@ -283,53 +291,54 @@
             align-items: center;
             font-size: 18px;
             flex-shrink: 0;
-        }
-
-        .offer-card.highlight .offer-icon {
-            background: #ef4444;
+            font-weight: bold;
         }
 
         .offer-details h4 {
             font-size: 14px;
-            color: #1e293b;
+            color: #ffffff;
             margin-bottom: 4px;
+            font-weight: 700;
         }
 
         .offer-details p {
             font-size: 12px;
-            color: #64748b;
+            color: #9ca3af;
             line-height: 1.5;
+        }
+
+        .offer-details strong {
+            color: #eab308;
+        }
+
+        .offer-details ul {
+            list-style: none;
+            margin-top: 5px;
+        }
+
+        .offer-details ul li {
+            font-size: 12px;
+            color: #d1d5db;
+            margin-bottom: 2px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .offer-details ul li i {
+            color: #eab308;
+            font-size: 10px;
         }
 
         .badge-gift {
             display: inline-block;
-            background: #f59e0b;
-            color: white;
+            background: #eab308;
+            color: #111827;
             font-size: 11px;
             padding: 1px 8px;
             border-radius: 12px;
             font-weight: bold;
-            margin-top: 4px;
-        }
-
-        .extra-box {
-            background: #f1f5f9;
-            border-radius: 16px;
-            padding: 12px 15px;
-            font-size: 13px;
-            color: #475569;
-        }
-
-        .extra-items {
-            display: flex;
-            gap: 15px;
             margin-top: 6px;
-            font-weight: bold;
-            color: #1e293b;
-        }
-
-        .extra-items span i {
-            color: #3b82f6;
         }
 
         .payment-methods {
@@ -343,8 +352,8 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background: #fff;
-            border: 2px dashed #cbd5e1;
+            background: #1f2937;
+            border: 2px dashed #374151;
             padding: 12px 15px;
             border-radius: 16px;
             cursor: pointer;
@@ -352,8 +361,8 @@
         }
 
         .pay-item:hover {
-            border-color: #3b82f6;
-            background: #f0fdf4;
+            border-color: #eab308;
+            background: #273549;
         }
 
         .pay-info {
@@ -365,24 +374,28 @@
 
         .pay-info span {
             font-size: 11px;
-            color: #64748b;
+            color: #9ca3af;
         }
 
         .pay-info strong {
             font-size: 14px;
-            color: #1e293b;
+            color: #ffffff;
         }
 
         .copy-icon {
-            color: #94a3b8;
+            color: #6b7280;
             font-size: 16px;
+        }
+
+        .pay-item:hover .copy-icon {
+            color: #eab308;
         }
 
         .footer-status {
             margin-top: auto;
             text-align: center;
             font-size: 12px;
-            color: #64748b;
+            color: #9ca3af;
             padding-top: 15px;
         }
 
@@ -391,13 +404,13 @@
             bottom: 30px;
             left: 50%;
             transform: translateX(-50%) translateY(100px);
-            background: #1e293b;
-            color: white;
+            background: #eab308;
+            color: #111827;
             padding: 10px 20px;
             border-radius: 30px;
             font-size: 13px;
             font-weight: bold;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.4);
             opacity: 0;
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             z-index: 99;
@@ -486,57 +499,77 @@
 
         <div class="content-body offers-view" id="offersBody">
             <div class="fire-header">
-                🔥 عروض النار وصلت الفتره دي 🔥
+                🔥 عروض وخدمات “بيوتفل ستور” 🔥
             </div>
 
             <div class="offer-card highlight">
-                <div class="offer-icon"><i class="fa-brands fa-instagram"></i></div>
+                <div class="offer-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
                 <div class="offer-details">
-                    <h4>10,000 متابع إنستغرام</h4>
-                    <p>زود أكونتك بـ 10K فولو حقيقي وثابت بـ <strong>280 جنيه</strong> بس!</p>
-                    <span class="badge-gift"><i class="fa-solid fa-gift"></i> +1000 لايك هدية من الاستور</span>
-                </div>
-            </div>
-
-            <div class="offer-card highlight">
-                <div class="offer-icon"><i class="fa-brands fa-facebook-f"></i></div>
-                <div class="offer-details">
-                    <h4>10,000 متابع فيسبوك</h4>
-                    <p>أقوى عرض للبيجات والأكونتات بـ <strong>180 جنيه</strong> فقط!</p>
-                    <span class="badge-gift"><i class="fa-solid fa-gift"></i> +1000 لايك هدية من الاستور</span>
-                </div>
-            </div>
-
-            <div class="extra-box">
-                <p>👀 ومتوفر معانا كمان بأسعار جامدة جداً:</p>
-                <div class="extra-items">
-                    <span><i class="fa-solid fa-thumbs-up"></i> لايكات فيس</span>
-                    <span><i class="fa-solid fa-comments"></i> كومنتات تفاعلية</span>
-                </div>
-            </div>
-
-            <div class="offer-card">
-                <div class="offer-icon"><i class="fa-solid fa-user-check"></i></div>
-                <div class="offer-details">
-                    <h4>توثيق حسابات وتفعيل العلامة</h4>
-                    <p>متاح توثيق حساباتك الرسمية واشتراكات ميتى بطرق رسمية وآمنة.</p>
+                    <h4>أقوى عروض السوشيال ميديا الحالية</h4>
+                    <p>📈 10,000 متابع إنستا بـ <strong>280 جنيه</strong> بس!</p>
+                    <span class="badge-gift"><i class="fa-solid fa-gift"></i> +1000 لايك هدية مجاناً</span>
+                    <p style="margin-top:8px;">📈 10,000 متابع فيسبوك بـ <strong>180 جنيه</strong> بس!</p>
+                    <span class="badge-gift"><i class="fa-solid fa-gift"></i> +1000 لايك هدية مجاناً</span>
                 </div>
             </div>
 
             <div class="offer-card">
                 <div class="offer-icon"><i class="fa-solid fa-gamepad"></i></div>
                 <div class="offer-details">
-                    <h4>شحن الألعاب والتطبيقات</h4>
-                    <p>ببجي، فري فاير، إي فوتبول وغيرها فوراً بالايدي بسرعات عالية.</p>
+                    <h4>شحن جميع الألعاب والتطبيقات</h4>
+                    <p>ببجي – فري فاير – فالورانت – إي فوتبول وغيرهم</p>
+                    <p>⚡ شحن فوري ومباشر وبأفضل سعر في السوق</p>
                 </div>
             </div>
 
-            <div class="section-title" style="color: #ef4444;"><i class="fa-solid fa-rocket"></i> دلوقتي وقت تظبط أكونتك وتخليه يبان جامد 🥱🔥</div>
+            <div class="offer-card">
+                <div class="offer-icon"><i class="fa-solid fa-bolt"></i></div>
+                <div class="offer-details">
+                    <h4>متوفر شحن وتغطية كاملة للشبكات</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-circle"></i> رصيد كرت لجميع الشبكات</li>
+                        <li><i class="fa-solid fa-circle"></i> باقات الإنترنت والمكالمات</li>
+                        <li><i class="fa-solid fa-circle"></i> باقات وإشتراكات الخط الأرضي</li>
+                        <li><i class="fa-solid fa-circle"></i> دفع الفواتير وشحن الخدمات المتنوعة</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="offer-card">
+                <div class="offer-icon"><i class="fa-solid fa-share-nodes"></i></div>
+                <div class="offer-details">
+                    <h4>خدمات وتزويد السوشيال ميديا الكاملة</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-circle"></i> تزويد متابعين لكل المنصات بلا استثناء</li>
+                        <li><i class="fa-solid fa-circle"></i> لايكات ❤️ ومشاهدات 👀 وكومنتات وتفاعل 🔥</li>
+                        <li><i class="fa-solid fa-circle"></i> توثيق حسابات وتفعيل العلامة الزرقاء</li>
+                        <li><i class="fa-solid fa-circle"></i> تجهيز وتجميل البروفايلات والصفحات التجارية</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="offer-card">
+                <div class="offer-icon"><i class="fa-solid fa-money-bill-transfer"></i></div>
+                <div class="offer-details">
+                    <h4>تحويلات كاش سريعة وآمنة</h4>
+                    <p>فودافون كاش - إنستا باي</p>
+                    <p>💸 تحويل واستقبال فوري بأعلى درجات الأمان والسرعة</p>
+                </div>
+            </div>
+
+            <div class="bio-card" style="margin-top: 5px; background: rgba(234, 179, 8, 0.05); border-color: rgba(234, 179, 8, 0.2);">
+                <div class="features-mini" style="margin-top:0; justify-content: space-around;">
+                    <span>✅ سرعة خيالية</span>
+                    <span>✅ أمان 100%</span>
+                    <span>✅ دعم مستمر</span>
+                </div>
+                <p style="font-size: 13px; font-weight: bold; color: #ffffff; margin-top: 10px;">“دقيقة معانا تخلي أكونتك يبان جامد” 🚀</p>
+            </div>
 
             <div class="section-title"><i class="fa-solid fa-wallet"></i> اضغط على طريقة الدفع لنسخ البيانات</div>
             
             <div class="payment-methods">
-                <div class="pay-item" onclick="copyPayment('01120720247', 'محفظة الكاش')">
+                <div class="pay-item" onclick="copyPayment('01120720247', 'فودافون كاش')">
                     <img src="https://img.icons8.com/color/48/vodafone.png" alt="Vodafone"/>
                     <div class="pay-info">
                         <span>فودافون كاش</span>
@@ -565,11 +598,11 @@
             </div>
 
             <div class="footer-status">
-                <p>🔒 طرق دفع مباشرة وتأكيد فوري</p>
+                <p>🟢 متاحين لتلقي الطلبات طول الوقت</p>
             </div>
         </div>
 
-        <div id="toast" class="toast-notification">تم نسخ الرقم بنجاح! 👍</div>
+        <div id="toast" class="toast-notification">تم نسخ البيانات بنجاح! 👍</div>
     </div>
 
     <script>
